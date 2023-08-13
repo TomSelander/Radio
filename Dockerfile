@@ -19,7 +19,7 @@ RUN unzip RadioPlayer-main.zip
 # copy files into html directory
 RUN cp -r RadioPlayer-main/* /var/www/html/
 
-# remove unwanted folder
+# remove unwanted folder i guess
 RUN rm -rf RadioPlayer-main RadioPlayer-main.zip
 
 # exposes port 80 on the container
